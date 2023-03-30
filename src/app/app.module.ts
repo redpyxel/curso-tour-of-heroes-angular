@@ -14,13 +14,16 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MessagesComponent } from './messages/messages.component';
 import { AppRoutingModule } from './app-routing.module';
+import { MatCardModule } from '@angular/material/card';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
     HeroDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -32,6 +35,7 @@ import { AppRoutingModule } from './app-routing.module';
     MatExpansionModule,
     MatIconModule,
     FlexLayoutModule,
+    MatCardModule,
     AppRoutingModule
   ],
   providers: [],

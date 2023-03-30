@@ -3,6 +3,15 @@
   <span fxFlex></span>
   <button
     mat-icon-button
+    matTooltip="Dashboard"
+    aria-label="Dashboard"
+    routerLink="/dashboard"
+  >
+    <mat-icon>dashboard</mat-icon>
+  </button>
+
+  <button
+    mat-icon-button
     matTooltip="Heroes"
     aria-label="Heroes list"
     routerLink="/heroes"
@@ -11,7 +20,7 @@
   </button>
 </mat-toolbar>
 
-<div class="content">
+<div class="content" fxLayoutGap="12px">
   <router-outlet></router-outlet>
   <app-messages></app-messages>
 </div>
