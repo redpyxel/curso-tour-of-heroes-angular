@@ -9,6 +9,11 @@ import { DashboardRoutingModule } from './dashboard-routing.module';
 
 @NgModule({
   declarations: [DashboardComponent],
-  imports: [CommonModule, FlexLayoutModule, MaterialModule, DashboardRoutingModule]
+  imports: [
+    CommonModule,
+    FlexLayoutModule,
+    MaterialModule,
+    DashboardRoutingModule,
+  ]
 })
 export class DashboardModule { }
